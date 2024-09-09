@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "modtutorial:block/sapphire_block"
+    }
+  }
+}

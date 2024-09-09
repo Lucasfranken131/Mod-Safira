@@ -1,6 +1,7 @@
 package net.lucasfranken131.modtutorial;
 
 import com.mojang.logging.LogUtils;
+import net.lucasfranken131.modtutorial.block.ModBlocks;
 import net.lucasfranken131.modtutorial.item.ModCreativeTabs;
 import net.lucasfranken131.modtutorial.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -31,7 +32,9 @@ public class ModTutorial {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
+        
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -47,13 +50,6 @@ public class ModTutorial {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.RAW_SAPPHIRE);
-        }
-        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.SAPPHIRE_SWORD);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

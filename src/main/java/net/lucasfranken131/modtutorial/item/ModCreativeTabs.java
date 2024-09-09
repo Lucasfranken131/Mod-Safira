@@ -1,6 +1,7 @@
 package net.lucasfranken131.modtutorial.item;
 
 import net.lucasfranken131.modtutorial.ModTutorial;
+import net.lucasfranken131.modtutorial.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeTabs {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                 pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
             })
             .build());
 

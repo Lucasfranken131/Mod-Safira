@@ -2,6 +2,8 @@
   "item.modtutorial.sapphire": "Sapphire",
   "item.modtutorial.raw_sapphire": "Sapphire Ore",
   "item.modtutorial.sapphire_sword": "Sapphire Sword",
+  "block.modtutorial.sapphire_block":  "Sapphire Block",
+  "block.modtutorial.raw_sapphire_block": "Raw Sapphire Block",
 
   "creativetab.tutorial_tab": "Sapphire Mod"
 }
