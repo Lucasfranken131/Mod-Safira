@@ -1,9 +1,13 @@
 {
   "item.modtutorial.sapphire": "Sapphire",
-  "item.modtutorial.raw_sapphire": "Sapphire Ore",
-  "item.modtutorial.sapphire_sword": "Sapphire Sword",
-  "block.modtutorial.sapphire_block":  "Sapphire Block",
-  "block.modtutorial.raw_sapphire_block": "Raw Sapphire Block",
+  "item.modtutorial.raw_sapphire": "Raw sapphire",
+  "item.modtutorial.sapphire_sword": "Sapphire sword",
+  "block.modtutorial.sapphire_block":  "Sapphire block",
+  "block.modtutorial.raw_sapphire_block": "Raw sapphire block",
+  "block.modtutorial.sapphire_ore": "Sapphire ore",
+  "block.modtutorial.deepslate_sapphire_ore": "Deepslate sapphire ore",
+  "block.modtutorial.nether_sapphire_ore": "Netherrack sapphire ore",
+  "block.modtutorial.end_stone_sapphire_ore": "End stone sapphire ore",
 
   "creativetab.tutorial_tab": "Sapphire Mod"
 }

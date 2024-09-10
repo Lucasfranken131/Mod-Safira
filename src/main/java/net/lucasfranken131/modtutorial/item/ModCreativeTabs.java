@@ -22,6 +22,7 @@ public class ModCreativeTabs {
                 pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
             })
             .build());
 

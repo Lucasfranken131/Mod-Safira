@@ -1,9 +1,13 @@
 {
   "item.modtutorial.sapphire": "Safíra",
   "item.modtutorial.raw_sapphire": "Safíra bruta",
-  "item.modtutorial.sapphire_sword": "Espada de Safíra",
-  "block.modtutorial.sapphire_block":  "Bloco de Safíra",
-  "block.modtutorial.raw_sapphire_block": "Bloco de Safíra bruta",
+  "item.modtutorial.sapphire_sword": "Espada de safíra",
+  "block.modtutorial.sapphire_block":  "Bloco de safíra",
+  "block.modtutorial.raw_sapphire_block": "Bloco de safíra bruta",
+  "block.modtutorial.sapphire_ore": "Minério de safíra",
+  "block.modtutorial.deepslate_sapphire_ore": "Minério de safíra de ardósia",
+  "block.modtutorial.nether_sapphire_ore": "Minério de safíra de netherrack",
+  "block.modtutorial.end_stone_sapphire_ore": "Minério de safíra de pedra do fim",
 
   "creativetab.tutorial_tab": "Mod da Safíra"
 }
