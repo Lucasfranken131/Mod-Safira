@@ -20,10 +20,11 @@ public class ModCreativeTabs {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                 pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
-                pOutput.accept(ModItems.FIREINATOR.get());
                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
+                pOutput.accept(ModItems.FIREINATOR.get());
+                pOutput.accept(ModItems.METAL_DETECTOR.get());
             })
             .build());
 
