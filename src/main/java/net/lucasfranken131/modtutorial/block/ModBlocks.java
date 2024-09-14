@@ -1,6 +1,7 @@
 package net.lucasfranken131.modtutorial.block;
 
 import net.lucasfranken131.modtutorial.ModTutorial;
+import net.lucasfranken131.modtutorial.block.custom.SoundBlock;
 import net.lucasfranken131.modtutorial.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -45,6 +46,8 @@ public class ModBlocks {
         "end_stone_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(5f)
             .requiresCorrectToolForDrops(), UniformInt.of(5,9)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block", () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK).strength(1f)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
