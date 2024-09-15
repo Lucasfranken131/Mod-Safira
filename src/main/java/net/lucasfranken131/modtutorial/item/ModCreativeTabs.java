@@ -26,6 +26,8 @@ public class ModCreativeTabs {
                 pOutput.accept(ModItems.FIREINATOR.get());
                 pOutput.accept(ModItems.METAL_DETECTOR.get());
                 pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+                pOutput.accept(ModItems.STRAWBERRY.get());
+                pOutput.accept(ModItems.COCA_COLA.get());
             })
             .build());
 

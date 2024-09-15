@@ -11,6 +11,8 @@
   "block.modtutorial.nether_sapphire_ore": "Netherrack sapphire ore",
   "block.modtutorial.end_stone_sapphire_ore": "End stone sapphire ore",
   "block.modtutorial.sound_block": "Sound Block",
+  "item.modtutorial.strawberry": "Strawberry",
+  "item.modtutorial.coca_cola": "Coke",
 
   "creativetab.tutorial_tab": "Sapphire Mod"
 }

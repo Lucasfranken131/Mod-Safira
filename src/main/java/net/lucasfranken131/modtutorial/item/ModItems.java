@@ -18,6 +18,8 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FIREINATOR = ITEMS.register("fireinator", ()-> new FireInator(new Item.Properties().durability(300).fireResistant()));
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector", () -> new MetalDetectorItem(new Item.Properties().durability(300)));
+    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry", () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+    public static final RegistryObject<Item> COCA_COLA = ITEMS.register("coca_cola", () -> new Item(new Item.Properties().food(ModFoods.COCA_COLA)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
