@@ -15,5 +15,9 @@
   "item.modtutorial.coca_cola": "Coca",
   "item.modtutorial.pine_cone": "Flor de pinho",
 
+  "tooltip.modtutorial.fireinator.tooltip": "Coloca fogo nas coisas kkkk",
+  "tooltip.modtutorial.metal_detector.tooltip": "Acha metais que estão debaixo da terra",
+  "tooltip.modtutorial.sound_block.tooltip": "Faz som quando apertado",
+
   "creativetab.tutorial_tab": "Mod da Safíra"
 }

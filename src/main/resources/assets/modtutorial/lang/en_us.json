@@ -15,5 +15,9 @@
   "item.modtutorial.coca_cola": "Coke",
   "item.modtutorial.pine_cone": "Pine cone",
 
+  "tooltip.modtutorial.fireinator.tooltip": "Set things on fire haha",
+  "tooltip.modtutorial.metal_detector.tooltip": "Finds metals that are underground",
+  "tooltip.modtutorial.sound_block.tooltip": "Makes a sound when pressed",
+
   "creativetab.tutorial_tab": "Sapphire Mod"
 }
