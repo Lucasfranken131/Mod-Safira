@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "2",
+    "1"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:potion",
+      "nbt":{
+        "Potion" :"minecraft:thick"
+      }
+    },
+    "2":{
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "modtutorial:coca_cola",
+    "count": 3
+  }
+}

@@ -28,6 +28,7 @@ public class ModCreativeTabs {
                 pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                 pOutput.accept(ModItems.STRAWBERRY.get());
                 pOutput.accept(ModItems.COCA_COLA.get());
+                pOutput.accept(ModItems.PINE_CONE.get());
             })
             .build());
 

@@ -11,7 +11,6 @@ public class ModFoods {
     public static final FoodProperties COCA_COLA = new FoodProperties.Builder().nutrition(1)
             .effect(new MobEffectInstance(MobEffects.DIG_SPEED, 250), 1f)
             .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 250), 1f)
-            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 250), 1f)
             .effect(new MobEffectInstance(MobEffects.JUMP, 250), 1f)
             .build();
 }
