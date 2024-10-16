@@ -29,6 +29,7 @@ public class ModCreativeTabs {
                 pOutput.accept(ModItems.STRAWBERRY.get());
                 pOutput.accept(ModItems.COCA_COLA.get());
                 pOutput.accept(ModItems.PINE_CONE.get());
+                pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
             })
             .build());
 
