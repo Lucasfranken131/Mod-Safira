@@ -19,7 +19,6 @@ public class ModCreativeTabs {
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-                pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
@@ -30,6 +29,8 @@ public class ModCreativeTabs {
                 pOutput.accept(ModItems.COCA_COLA.get());
                 pOutput.accept(ModItems.PINE_CONE.get());
                 pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
+                pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
+                pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
             })
             .build());
 

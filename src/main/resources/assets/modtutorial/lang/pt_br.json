@@ -1,7 +1,6 @@
 {
   "item.modtutorial.sapphire": "Safíra",
   "item.modtutorial.raw_sapphire": "Safíra bruta",
-  "item.modtutorial.sapphire_sword": "Espada de safíra",
   "item.modtutorial.fireinator": "Fogoinador",
   "item.modtutorial.metal_detector": "Detector de metal",
   "block.modtutorial.sapphire_block":  "Bloco de safíra",
@@ -15,6 +14,8 @@
   "item.modtutorial.coca_cola": "Coca",
   "item.modtutorial.pine_cone": "Flor de pinho",
   "item.modtutorial.sapphire_staff": "Cajado de safíra",
+  "item.modtutorial.sapphire_sword": "Espada de safíra",
+  "item.modtutorial.sapphire_pickaxe": "Picareta de safíra",
 
   "tooltip.modtutorial.fireinator.tooltip": "Coloca fogo nas coisas kkkk",
   "tooltip.modtutorial.metal_detector.tooltip": "Acha metais que estão debaixo da terra",

@@ -1,7 +1,6 @@
 {
   "item.modtutorial.sapphire": "Sapphire",
   "item.modtutorial.raw_sapphire": "Raw sapphire",
-  "item.modtutorial.sapphire_sword": "Sapphire sword",
   "item.modtutorial.fireinator": "Fireinator",
   "item.modtutorial.metal_detector": "Metal detector",
   "block.modtutorial.sapphire_block":  "Sapphire block",
@@ -15,6 +14,8 @@
   "item.modtutorial.coca_cola": "Coke",
   "item.modtutorial.pine_cone": "Pine cone",
   "item.modtutorial.sapphire_staff": "Sapphire staff",
+  "item.modtutorial.sapphire_sword": "Sapphire sword",
+  "item.modtutorial.sapphire_pickaxe": "Sapphire pickaxe",
 
   "tooltip.modtutorial.fireinator.tooltip": "Set things on fire haha",
   "tooltip.modtutorial.metal_detector.tooltip": "Finds metals that are underground",
