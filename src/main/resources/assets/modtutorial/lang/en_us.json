@@ -17,6 +17,7 @@
   "item.modtutorial.sapphire_sword": "Sapphire sword",
   "item.modtutorial.sapphire_pickaxe": "Sapphire pickaxe",
 
+  "sounds.modtutorial.metal_detector_found_ore": "Metal detector found ore",
   "tooltip.modtutorial.fireinator.tooltip": "Set things on fire haha",
   "tooltip.modtutorial.metal_detector.tooltip": "Finds metals that are underground",
   "tooltip.modtutorial.sound_block.tooltip": "Makes a sound when pressed",

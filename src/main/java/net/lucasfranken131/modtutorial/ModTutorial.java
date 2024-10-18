@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.lucasfranken131.modtutorial.block.ModBlocks;
 import net.lucasfranken131.modtutorial.item.ModCreativeTabs;
 import net.lucasfranken131.modtutorial.item.ModItems;
+import net.lucasfranken131.modtutorial.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,7 @@ public class ModTutorial {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
+        ModSounds.register(modEventBus);
         
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
